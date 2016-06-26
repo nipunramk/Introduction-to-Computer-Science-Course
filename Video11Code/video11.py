@@ -115,7 +115,3 @@ def make_change(n):
 		use_3 = 1 + make_change(n - 3)
 		use_4 = 1 + make_change(n - 4)
 		return min(use_1, use_3, use_4)
-	
-		
-
-
