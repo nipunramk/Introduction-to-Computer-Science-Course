@@ -5,32 +5,6 @@ def cascade1(n):
 		cascade1(n // 10)
 		print(n)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 def combine(left, right):
 	factor = 1
 	n = right
@@ -72,13 +46,6 @@ def reverse(n):
 	else:
 		return combine(n % 10, reverse(n // 10))
 
-
-
-
-
-
-
-
 square = lambda x: x * x
 double = lambda x: 2 * x
 
@@ -112,34 +79,6 @@ def memory(x, f):
 		print(f(x))
 		return memory(x, h)
 	return g
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 def make_change(n):
 	"""Function that finds the minimum number
